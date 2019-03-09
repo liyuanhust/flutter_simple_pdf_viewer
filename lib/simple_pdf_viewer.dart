@@ -7,12 +7,12 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 typedef LoadCompleteCallback = void Function(bool res);
 
-class PdfViewerWidget extends StatelessWidget {
+class SimplePdfViewerWidget extends StatelessWidget {
   /// The initial URL to load.
   final String initialUrl;
   final LoadCompleteCallback completeCallback;
 
-  const PdfViewerWidget({
+  const SimplePdfViewerWidget({
     Key key,
     this.initialUrl,
     this.completeCallback
