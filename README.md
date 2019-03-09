@@ -64,6 +64,6 @@ License: Apache 2.0
 
 
 ## Screenshot
-![image](https://github.com/liyuanhust/flutter_simple_pdf_viewer/blob/master/document/1.png)
+![image](https://github.com/liyuanhust/flutter_simple_pdf_viewer/blob/master/document/2.png)
 
 
