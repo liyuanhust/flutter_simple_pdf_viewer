@@ -1,6 +1,6 @@
 name: simple_pdf_viewer
 description: A very simple native pdf viewer.
-version: 0.1.1
+version: 0.1.3
 author: liyuan <liyuanhust@gmail.com>
 homepage: https://github.com/liyuanhust/flutter_simple_pdf_viewer
 

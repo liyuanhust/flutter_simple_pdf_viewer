@@ -55,6 +55,10 @@ android {
     }
 }
 
+configurations{
+    all*.exclude module: "webview_flutter"
+}
+
 flutter {
     source '../..'
 }
