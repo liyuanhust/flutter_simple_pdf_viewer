@@ -51,7 +51,7 @@ public class WebViewFlutterPlugin {
 
 ## Install
 
-simple_pdf_viewer: ^0.1.3
+simple_pdf_viewer: ^0.1.4
 
 License: Apache 2.0
 
