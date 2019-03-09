@@ -63,3 +63,7 @@ License: Apache 2.0
 -   [flutter_pdf_viewer](https://github.com/pycampers/flutter_pdf_viewer).
 
 
+## Screenshot
+![image](https://github.com/liyuanhust/flutter_simple_pdf_viewer/blob/master/document/1.png)
+
+
