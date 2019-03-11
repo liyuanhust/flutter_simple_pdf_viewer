@@ -5,7 +5,7 @@ A very simple flutter plugin project. Just show pdf from remote url on android/i
 
 ## Features
 
-On Android, first it use okhttp to download file to cache folder, than use  built on [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer) to load file on local.
+On Android, first it use okhttp to download file to cache folder, then use  built on [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer) to load file on local.
 
 On IOS, it just use embedded [webview](https://github.com/flutter/plugins/blob/master/packages/webview_flutter/lib/webview_flutter.dart) to load url.
 
@@ -24,6 +24,17 @@ If your pdf url is http not https, add this to
     <true/>
 </dict>
 ```
+
+Add follow to android/app/build.gradle
+```
+    defaultConfig {
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+```
+
+
 
 If you have some android compile error about  android support-v4 or AndroidX. It may caused by android webview plugin, we could remove the plugin to fix.
 
@@ -51,7 +62,7 @@ public class WebViewFlutterPlugin {
 
 ## Install
 
-simple_pdf_viewer: ^0.1.4
+simple_pdf_viewer: ^0.1.5
 
 License: Apache 2.0
 

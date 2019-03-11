@@ -86,7 +86,7 @@ class FileLoader(private val context: Context) {
             tempFile = File(downloadFolder, tempFileName)
             if (isCancle) return
 
-            val request = Request.Builder().url(url).build()
+            val request = Request.Builder().url(url.orEmpty()).build()
             val call =  okHttpClient.newCall(request)
             this.call = call
             inputStream = call.execute().body()?.byteStream()

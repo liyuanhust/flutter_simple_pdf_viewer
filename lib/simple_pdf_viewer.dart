@@ -31,7 +31,7 @@ class SimplePdfViewerWidget extends StatelessWidget {
       );
     }
     return Text(
-        '$defaultTargetPlatform is not yet supported by the pdf_viewer plugin');;
+        '$defaultTargetPlatform is not yet supported by the pdf_viewer plugin');
   }
 }
 
