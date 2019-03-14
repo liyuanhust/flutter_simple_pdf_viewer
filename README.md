@@ -27,11 +27,11 @@ If your pdf url is http not https, add this to
 
 Add follow to android/app/build.gradle
 ```
-    defaultConfig {
-        ndk {
-            abiFilters "armeabi-v7a", "x86"
+ release {
+            ndk {
+                abiFilters "armeabi-v7a", "x86"
+            }
         }
-    }
 ```
 
 

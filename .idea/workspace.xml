@@ -6,16 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d11a9411-5649-4dce-be1d-87da0684b477" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/example/android/app/src/main/java/io/flutter/plugins/webviewflutter/WebViewFlutterPlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/liyuanhust/pdfviewer/FileLoader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/liyuanhust/pdfviewer/FileLoader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/liyuanhust/pdfviewer/PdfViewerFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/liyuanhust/pdfviewer/PdfViewerFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/simple_pdf_viewer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/simple_pdf_viewer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="d11a9411-5649-4dce-be1d-87da0684b477" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -290,7 +281,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-683" y="-1330" width="2560" height="1273" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info id="Build Variants" order="2" side_tool="true" />
