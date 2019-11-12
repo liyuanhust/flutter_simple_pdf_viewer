@@ -10,6 +10,7 @@ import com.github.barteksc.pdfviewer.PDFView as LocalPdfView
 
 
 class PdfView: PlatformView, MethodChannel.MethodCallHandler {
+
     companion object {
         const val CHANNEL = "com.liyuanhust.flutter/pdfviewer"
     }
@@ -52,7 +53,7 @@ class PdfView: PlatformView, MethodChannel.MethodCallHandler {
         localPdfView.recycle()
     }
 
-    override fun onMethodCall(p0: MethodCall?, p1: MethodChannel.Result?) {
+    override fun onMethodCall(p0: MethodCall, p1: MethodChannel.Result) {
         //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 }
