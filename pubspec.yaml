@@ -1,6 +1,6 @@
 name: simple_pdf_viewer
 description: A very simple native pdf viewer.
-version: 0.1.9
+version: 0.2.0
 author: liyuan <liyuanhust@gmail.com>
 homepage: https://github.com/liyuanhust/flutter_simple_pdf_viewer
 
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  webview_flutter: ^0.3.3
+  webview_flutter: ^0.3.16
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 

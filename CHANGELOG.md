@@ -9,3 +9,5 @@ Upgrade android kotlin version to 1.3.10
 ## 0.1.8
 
 ## 0.1.9
+
+## 0.2.0
